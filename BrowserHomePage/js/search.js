@@ -13,44 +13,8 @@ input_box.onkeydown = function () {
 baidu_btn.onclick = function () {
     var input_value = input_box.value;
     if (input_value == "" || input_value == null) {
-        window.location.href = "../club.html";
+        window.location.reload();
     } else {
         window.location.href = "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd="+input_value;
     };
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-window.location.href = "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd="+otext.value
