@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+body,html {
+	height: 100%;
+}
+.bimg {
+	width: 1903px;
+	height: 100%;
+	border: 1px solid red; 
+}
+.bimg img {
+	float: left;
+}

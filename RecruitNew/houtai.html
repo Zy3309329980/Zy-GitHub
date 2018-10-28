@@ -1,0 +1,84 @@
+﻿<html>
+<head>
+    <meta charset="UTF-8">
+    <title>后台审核</title>
+    <script src="http://www.1473.cn/uform.js" ></script>
+</head>
+<style>
+    table {width:100%;text-align: center}
+    tbody{border: 1px solid #fff;}
+</style>
+<body>
+<div>
+    <span>按姓名搜索</span>
+    <input type="text" id="select">
+    <button onclick="select()">搜索</button>
+    <button onclick="resgin()">重置</button>
+    <!--选择年级:-->
+    <!--<select name="" id="class" onchange="select_class(this)">-->
+        <!--<option value="" selected></option>-->
+        <!--<option value="13" >13</option>-->
+        <!--<option value="14">14</option>-->
+        <!--<option value="15">15</option>-->
+        <!--<option value="16">16</option>-->
+        <!--<option value="17">17</option>-->
+    <!--</select>-->
+</div>
+<div class="main"></div>
+<script>
+    function ajax(arr,callback){
+        U.A.Request("http://cd.1473.cn/php", ["db.1473", "UseStudio-Register"].concat(arr),callback);
+    }
+    window.onload = function() {
+        ajax(['select_recruit_new'],function(r){
+            render(r)
+        })
+
+    }
+
+    function render(r) {
+        var list = ['<table border="1" name="table"><tr><th>序号</th><th>姓名</th><th>班级</th><th>qq</th><th>手机号</th><th>学号</th><th>方向</th></tr>'];
+
+        if(r.value == "") {
+            list += '<tr><td style="text-align: center;" colspan="8">无</td></tr>>'
+        }else {
+            r.value.map(function(v, index){
+                list += '<tr><td>'+(index + 1)+'</td><td>'+v.name+'</td><td>'+v.class+'</td><td>'+v.qq+'</td><td>'+v.phone+'</td><td>'+v.studentId+'</td><td>'+ v.department +'</td></tr>'
+            })
+        }
+        list+='</table>';
+        $('.main')[0].innerHTML += list;
+    }
+
+
+    function select() {
+        var _s = $('#select')[0].value;
+        if(_s == '') {
+            return false;
+        }
+        ajax(['select_recruit_new_byname',_s], function(r) {
+            $(".main")[0].innerHTML = ''
+            render(r)
+        })
+    }
+    function resgin() {
+        ajax(['select_recruit_new'], function(r) {
+            $(".main")[0].innerHTML = ''
+            render(r)
+        })
+    }
+    function select_class(_v) {
+        ajax(['select_class', _v.value], function(r) {
+            if(r.value) {
+                var list = ['<table border="1" name="table"><tr><th>序号</th><th>姓名</th><th>班级</th><th>方向</th><th>手机号</th><th>qq</th><th>参加的比赛</th><th>团队名字</th><th>项目名称</th><th>项目简介</th></tr>'];
+                r.value.map(function(v, index){
+                    list += '<tr><td>'+(index + 1)+'</td><td>'+v.name+'</td><td>'+v.class+'</td><td>'+v.direction+'</td><td>'+v.phone+'</td><td>'+v.qq_num+'</td><td>'+v.type+'</td><td>'+v.teamName+'</td><td>'+v.project_name+'</td><td>'+v.introduction+'</td></tr>'
+                })
+                list+='</table>';
+                $('.main')[0].innerHTML = list;
+            }
+        })
+    }
+</script>
+</body>
+</html>

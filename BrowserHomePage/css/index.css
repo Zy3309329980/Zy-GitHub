@@ -1,0 +1,184 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft YaHei, fontello;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+}
+
+body,
+html {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #333;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* 分割线样式 */
+
+.Divider {
+    height: 1px;
+    border: none;
+    border-top: 1px solid #cacaca;
+}
+
+
+/* 百度搜索图标样式 */
+
+.Baidu {
+    width: 911px;
+    height: 125px;
+    margin: 0 auto;
+    margin-top: 150px;
+    /*background-colo: red;*/
+}
+
+.Baidu-icon {
+    width: 210px;
+    height: 69px;
+    margin: 0 auto;
+}
+
+
+/* 搜索框样式 */
+
+.Search {
+    width: 646px;
+    height: 43px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.Search-input {
+    width: 537px;
+    height: 41px;
+    font-size: 14px;
+    border: 1px solid #cacaca;
+    float: left;
+}
+
+.Search-camera {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 10px;
+    left: 507px;
+}
+
+#Search-button {
+    width: 107px;
+    height: 43px;
+    background-color: #3388ff;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    border: 1px solid #3388ff;
+    cursor: pointer;
+}
+
+
+/* 模块样式 */
+
+.Modul {
+    width: 650px;
+    height: auto !important;
+    margin: 0 auto;
+    /*background-color: red;*/
+    margin-top: 67px;
+}
+
+.Modul_Dbox {
+    width: 650px;
+    height: 265px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.Modul_Dbox h2 {
+    font-size: 18px;
+    /*color: #333;*/
+    font-family: arial, 'Microsoft Yahei', '微软雅黑';
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+.Modul_Dbox a:hover {
+    /*text-decoration: underline;*/
+    color: #07f;
+}
+
+.Modul_Dbox p {
+    width: 650px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ababab;
+    /*padding-top: 11px;*/
+    padding-bottom: 19px;
+    /*	position: relative;
+    top: 15px;*/
+}
+
+.Modul_box {
+    width: 650px;
+    height: 180px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.Modul_box h2 {
+    font-size: 18px;
+    /*color: #333;*/
+    font-family: arial, 'Microsoft Yahei', '微软雅黑';
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+.Modul_box a:hover {
+    /*text-decoration: underline;*/
+    color: #07f;
+}
+
+.Modul_box p {
+    width: 440px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ababab;
+    /*	padding-top: 11px;*/
+    padding-bottom: 19px;
+    /*	position: relative;
+    top: 15px;*/
+}
+
+.Modul_text {
+    width: 438px;
+    height: 100px;
+    float: right;
+    padding: 10px 0;
+}
+
+.Modul_img {
+    padding: 30px 0;
+}
+
+
+/* 页脚样式 */
+
+.Footer-banner {
+    width: 650px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 20px;
+}

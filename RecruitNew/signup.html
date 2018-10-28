@@ -1,0 +1,108 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>有思报名系统</title>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="theme-color" content="#000000">
+    <script src="http://www.1473.cn/uform.js" ></script>
+    <script src="JS/signup.js" type="text/javascript"></script>
+    <link href="http://www.1473.cn/uform.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="CSS/signup.css">
+</head>
+<body>
+	<div class="op-main"></div>
+	<div class="stop-recruit">
+		<h1 style="text-align: center;margin: 398px auto;font-size: 40px;color: #000;">报名已截止!</h1>
+	</div>
+	<div class="alertDiv">
+		<!-- <div class="title">提交成功</div> -->
+		<div class="title" style="font-size: 16px;padding: 9px 0 0 0; padding:0 0 10px 0">
+	        <p>
+	            报名成功后请加入QQ群：727832214 
+	        </p>
+	        <p>
+	        	有任何公告我们将在群内进行通知！
+	        </p>
+	        <p>
+	            如有任何疑问请联系QQ：1308238914
+	        </p>
+	        <p>
+	            有思俱乐部：思维点亮道路
+	        </p>
+		</div>
+		<button onclick="cancel()">确定</button>
+	</div>
+
+	<form id="myForm">
+		<div class="header">在线报名</div>
+		<div style="text-align: center;color:red;">
+			！报名截至日期为10月25号！
+		</div>
+		<!-- 姓名 -->
+		<div class="inputGroup">
+			<label for="">姓名<span>*</span>：</label><br>
+			<input type="text" name="name"><br>
+		</div>
+		<!-- 班级 -->
+		<div class="inputGroup">
+			<label for="">班级<span>*</span>：</label><br>
+			<input type="text" name="class"><br>
+		</div>
+		<!-- QQ号 -->
+		<div class="inputGroup">
+			<label for="">qq号<span>*</span>：</label><br>
+			<input type="text" name="qq"><br>
+		</div>
+		<!-- 手机号 -->
+		<div class="inputGroup">
+			<label for="">手机号<span>*</span>：</label><br>
+			<input type="text" name="phone"><br>
+		</div>
+		<!-- 学号 -->
+		<div class="inputGroup">
+			<label for="">学号<span>*</span>：</label><br>
+			<input type="text" name="studentId"><br>
+		</div>
+		<!-- 部门名称 -->
+		<div class="inputGroup">
+			<label for="">请选择要进入的部门<span>*</span>：</label><br>
+			<select  name="depType" id="depType">
+			<div name="depType" id="depType"></div>
+			<!-- ... -->
+			</select> <br>
+		</div>
+		<!-- 项目名称 -->
+		<div class="inputGroup">
+			<label for="">请选择要参加的项目<span>*</span>：</label><br>
+			<select  name="proType" id="proType">
+			<div name="proType" id="proType"></div>
+			<!-- ... -->
+			</select> <br>
+			<div style="text-align: center;color:red;">
+			温馨提示：选择“招新”一栏时，以下内容则无需填写。可直接提交信息。
+			</div>
+		</div>
+		 
+		<div class="inputGroup">
+			<label for="">团队名称<span>*</span>：</label><br>
+			<input type="text"  name="teamName"><br>
+		</div>
+
+		<div class="inputGroup">
+			<label for="">团队参与比赛的项目名称<span>*</span>：</label><br>
+			<input type="text"  name="proName"><br>
+		</div>
+
+		<div class="inputGroup">
+			<label for="">团队参与比赛的项目简介<span>*</span>：</label><br>
+			<input type="text"  name="proText"><br>
+		</div>
+
+		<div class="inputGroup">
+			<div class="button" onClick="mySubmit()">提交</div>
+		</div>
+	</form>
+</body>
+</html>
