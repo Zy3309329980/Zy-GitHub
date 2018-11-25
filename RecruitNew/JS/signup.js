@@ -26,8 +26,9 @@ window.onload = function () {
 		}
 	});	
 	// 判断报名截止时间
-    var myDate = new Date();
-    if (myDate.toLocaleDateString() == "2018/11/25") {
+    var myDate = new Date().toLocaleDateString();
+   	var yourtime = '2018/11/25';
+    if (myDate > yourtime) {
         $(".stop-recruit")[0].style.display = 'block';
         // $(".alertDiv")[0].style.display = 'block';
     } else {
