@@ -1,0 +1,608 @@
+﻿EAM_Q{}
+*{margin: 0;padding: 0;}
+body{font-size: 12px;font-family: "微软雅黑";min-width: 1250px;float: left;}
+ul,li{list-style: none;}
+.EAM_Q_Query
+{
+    width: 93%;
+    margin-top: 40px;
+    float: left;
+    }
+.EAM_Q_Query_Head
+{
+    width: 85%;
+    }
+.EAM_Q_Query_Title
+{
+    font-size: 20px;
+    margin-left: 40px;
+    width: 10%;
+    display: inline-block;
+    }
+.EAM_Q_Query_Search
+{
+    width: 217px;
+    height: 36px;
+    display: inline-block;
+    float:right;
+    border: 1px solid #58b7ff;
+    border-radius: 5px;
+    }
+.EAM_Q_Query_Search_Text
+{
+    height: 30px;
+    border: none;
+    outline: none;
+    text-indent: 1em;
+    margin-top: 3px;
+    }
+.EAM_Q_Query_Search_Button
+{
+    display: inline-block;
+    background-color: #58b7ff;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    float: right;
+    }
+.EAM_Q_Query_New
+{
+    }
+.EAM_Q_Query_New_Search
+{
+    width: 210px;
+    height: 33px;
+    float: right;
+    border-radius: 5px;
+    border: 2px solid #2fa5ff;
+    margin-top: 40px;
+    line-height: 30px;
+    text-indent: 1em;
+    color: #ABABAB;
+    position: relative;
+    }
+.EAM_Q_Query_New_Search_Cut
+{
+    border-left: 1px solid  #2fa5ff; 
+    float: right; 
+    display: block; 
+    margin: 7px 0; 
+    height: 20px;
+    }
+.EAM_Q_Query_New_Btn
+{
+    cursor: pointer;
+    background-color: #ff6656;
+    padding: 7px 28px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #ff6656;
+    margin: 40px 0 0 30px;
+    outline:  none;
+}
+.EAM_Q_Query_New_Search img
+{
+    float: right; 
+    margin: 2px 8px 8px 10px; 
+    width: 18px; 
+    height: 18px;
+    cursor: pointer;
+    }
+.EAM_Q_Query_Table
+{
+    width: 100%; 
+    min-width: 750px;
+    font-size: 16px;
+    position: relative;
+    }
+.EAM_Q_Query_Table_DivA
+{
+    margin-top: 80px;
+    float: left;
+    width: 100%;
+    }
+.EAM_Q_Query_Table_Div_Ul
+{
+    width: 15%;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+    margin-left: 6px;
+    }
+    .EAM_Q_Query_Table_Div_Ultwo
+{
+    width: 24%;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+    margin-left: 6px;
+    }
+.EAM_Q_Query_Table_Div_Ul_Li
+{
+    clear: both;
+    }
+.EAM_Q_Query_Table_Div_Ul_Li_Left
+{
+    width: 80px;
+    float: left;
+    padding: 5px 0;
+    border-left: 1px solid #bdc1cc;
+    border-top: 1px solid #bdc1cc;
+    border-right: 1px solid #bdc1cc;
+    }
+.EAM_Q_Query_Table_Div_Ul_Li_Right
+{
+    width: 80px;
+    float: left;
+    padding: 5px 0;
+    border-top: 1px solid #bdc1cc;
+    border-right: 1px solid #bdc1cc;
+    }
+.EAM_Q_Query_Table_Div_Ul_Li_Fourth1
+{
+    width: 80px;
+    float: left;
+    padding: 5px 0;
+    border: 1px solid #bdc1cc;
+    }
+.EAM_Q_Query_Table_Div_Ul_Li_Fourth2
+{
+    width: 80px;
+    float: left;
+    padding: 5px 0;
+    border-top: 1px solid #bdc1cc;
+    border-right: 1px solid #bdc1cc;
+    border-bottom: 1px solid #bdc1cc;
+    }
+.EAM_Q_Query_Table_DivB
+{
+    width: 93%;
+    float: left;
+    margin: 100px 0px 0px 0px;
+   }
+.EAM_Q_Query_Table_Div2_Ul
+{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+    clear: both;
+    display: inline-block;
+    }
+.EAM_Q_Query_Table_Div2_Ul_Li
+{
+    clear: both;
+    }
+.EAM_Q_Query_Table_Div2_Ul_Li_Left
+{
+    width: 80px;
+    float: left;
+    padding: 5px 0;
+    border-left: 1px solid #bdc1cc;
+    border-top: 1px solid #bdc1cc;
+    border-right: 1px solid #bdc1cc;
+    }
+.EAM_Q_Query_Table_Div2_Ul_Li_Right
+{
+    width: 80px;
+    float: left;
+    padding: 5px 0;
+    border-top: 1px solid #bdc1cc;
+    border-right: 1px solid #bdc1cc;
+    }
+.EAM_Q_Query_Table_Div2_Ul_Li_Fourth1
+{
+    width: 80px;
+    float: left;
+    padding: 5px 0;
+    border: 1px solid #bdc1cc;
+    }
+.EAM_Q_Query_Table_Div2_Ul_Li_Fourth2
+{
+    width: 80px;
+    float: left;
+    padding: 5px 0;
+    border-top: 1px solid #bdc1cc;
+    border-right: 1px solid #bdc1cc;
+    border-bottom: 1px solid #bdc1cc;
+    }
+#EAM_Q_Query_Table_Div_Ul_Li_Revise
+{
+    cursor: pointer;
+    }
+.EAM_Q_Query_Table_Adjustment
+{
+    width: 36px;
+    height: 145px;
+    background-color: #2196f3;
+    border-radius: 5px;
+    position: absolute;
+    top: 500px;
+    right: 30px;
+    }
+.EAM_Q_Query_Table_Adjustment img
+{
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+    }
+#EAM_Q_Query_Table_Adjustment_Eye
+{
+    height: 15px;
+    }
+.EAM_Q_Query_Bulid
+{
+    width: 411px;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    top: 20%;
+    margin: 0 auto;
+    }
+.EAM_Q_Query_Bulid_Title
+{
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    left: 160px;
+    top: 10px;
+    }
+.EAM_Q_Query_Bulid_Close
+{
+    display: inline;
+    width: 28px;
+    color: #505050;
+    font-size: 32px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: -4px;
+    }
+.EAM_Q_Query_Bulid_Table
+{
+    width: 68%;
+    font-size: 16px;
+    margin: 20px 68px;
+    text-align: right;
+    float: left;
+    }
+.EAM_Q_Query_Bulid_Table_Div
+{
+    margin-top: 28px;
+    }
+.EAM_Q_Query_Bulid_Table_Div_Indicate
+{
+    font-size: 16px;
+    }
+.EAM_Q_Query_Bulid_Table_Div_Text
+{
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    text-indent: 10px;
+    margin-left: 14px;
+    border-radius: 5px;
+    border: 1px solid #bdc1cc;
+    }
+.EAM_Q_Query_Bulid_Add_Btn
+{
+    width: 74px;
+    height: 36px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #2fa5ff;
+    border: 1px solid #2fa5ff;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-left: -10px; */
+    }
+.EAM_Q_Query_Finish
+{
+    width: 434px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.EAM_Q_Query_Finish_Title
+{
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    left: 160px;
+    top: 10px;
+    }
+.EAM_Q_Query_Finish_Close
+{
+    display: inline;
+    width: 28px;
+    color: #505050;
+    font-size: 32px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: -4px;
+    }
+.EAM_Q_Query_Finish_Table
+{
+    width: 66%;
+    text-align: left;
+    float: left;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 95px;
+    }
+.EAM_Q_Query_Finish_Table_Div
+{
+    width: 100%;
+    margin-top: 36px;
+    font-size: 16px;
+    float: left;
+    }
+.EAM_Q_Query_Finish_Table_Div_Indicate
+{
+    margin: 0px 14px 0 0;
+    width: 29%;
+    float: left;
+    }
+.EAM_Q_Query_Finish_Table_Div_Model
+{
+    margin-right: 11px;
+    }
+.EAM_Q_Query_Finish_Table_Div_IP
+{
+    width: 95px;
+    text-align: left;
+    display: inline-block;
+    }
+.EAM_Q_Query_Finish_Add_Btn
+{
+    width: 94px;
+    height: 35px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #2fa5ff;
+    margin: 44px 3px 0px 112px;
+    border: 1px solid #2fa5ff;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    bottom: 0;
+    float:  left;
+    }
+.EAM_Q_Query_Revise
+{
+    width: 411px;
+    height: 449px;
+    background-color: #FFFFFF;
+    border: 1px solid #9f9f9f;
+    border-radius: 5px; 
+    box-shadow: 1px 1px 1px 1px #ccc;
+    margin: -550px 0 0 300px;
+    position: relative;
+    display: none;
+    }
+.EAM_Q_Query_Revise_Title
+{
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    left: 160px;
+    top: 10px;
+    }
+.EAM_Q_Query_Revise_Close
+{
+    display: inline;
+    width: 28px;
+    color: #505050;
+    font-size: 32px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: -4px;
+    }
+.EAM_Q_Query_Revise_Table
+{
+    width: 312px;
+    margin: 40px 70px;
+    text-align: right;
+    float: right;
+    }
+.EAM_Q_Query_Revise_Table_Div
+{
+    margin-top: 30px;
+    }
+.EAM_Q_Query_Revise_Table_Div_Indicate
+{
+    font-size: 16px;
+    margin: 0 20px 0 0;
+    }
+.EAM_Q_Query_Revise_Table_Div_Text
+{
+    width: 200px;
+    height: 30px;   
+    text-indent: 5px;
+    border-radius: 5px; 
+    border: 1px solid #bdc1cc;
+    }
+.EAM_Q_Query_Revise_Table_Add_Btn
+{
+    width: 130px;
+    height: 35px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #2fa5ff;
+    margin: 0 0 20px 140px;
+    border: 1px solid #2fa5ff;
+    border-radius: 5px; 
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    }
+    
+
+
+
+
+.EAM_Q_Query_Table_Div_Ul_box{
+	   width: 76%;
+	   margin-left: 38px;
+	   line-height:30px;
+}
+.EAM_Q_Query_Table_Div_Ul_left{
+	    cursor: pointer;
+	    width: 100%;
+	    height: 45px;
+	    text-align: center;
+	    line-height: 45px;
+	    float: right;
+	    border-top: 1px solid #bdc1cc;
+	    border-left: 1px solid #bdc1cc;
+	    border-right: 1px solid #bdc1cc;
+	    border-bottom: 1px solid #bdc1cc;
+	    font-size: 7px;
+}
+.EAM_Q_Query_Table_Div_Ul_right{
+	    cursor: pointer;
+	    width: 100%;
+	    float: left;
+	    /* border: 1px solid #bdc1cc; */
+	    height: 45px;
+	    line-height:  45px;
+	    text-align: center;
+	    border-top: 1px solid #bdc1cc;
+	    font-size: 7px;
+	    border-right: 1px solid #bdc1cc;
+	    border-bottom: 1px solid #bdc1cc;
+}
+.EAM_Q_Query_Table_Div_Ul_two{
+	 width: 25%;
+	 font-size: 16px;
+	 text-align: center;
+	 float: left;
+}
+.EAM_Q_Query_Table_Div_Ul_three{
+	 width: 22%;
+	 font-size: 16px;
+	 text-align: center;
+	 display: inline-block;
+}
+.EAM_Q_Query_Table_Div_Ul_box_two{
+	 width: 41%;
+	 height: 226px;
+	 margin-left: 25px;
+	 line-height:30px;
+}
+.EAM_Q_Query_Table_Div_Ul_right_two{
+	 width: 83%;
+	 float: left;
+	 height: 15%;
+	 text-align: center;
+	 border-top: 1px solid #bdc1cc;
+	 border-right: 1px solid #bdc1cc;
+	 border-bottom: 1px solid #bdc1cc;
+	 border-left: 1px solid #bdc1cc;
+}
+.EAM_Q_Query_Table_Div_Ul_box_three{
+	width: 95%;
+	height: 225px;
+	margin-left: 2px;
+	line-height:30px;
+}
+.EAM_Q_Query_Table_Div_Ul_four{
+	 width: 12%;
+	 font-size: 16px;
+	 text-align: center;
+	 float: left;
+	 margin-top: 22px;
+	 margin-left: 335px;
+}
+.EAM_Q_Query_Table_Div2_right{
+	width: 76%;
+	float: left;
+	padding-left: 76px;
+}
+.EAM_Q_Query_Table_Div_Ul_five{
+	width: 12%;
+	margin-top: 22px;
+	float: left;
+	position:  relative;
+	left: 20%;
+	margin-left: 15px;
+}
+.EAM_Q_Query_Table_DivC{
+	width: 87%;
+	float: left;
+	margin-top: 89px;
+}
+.EAM_Q_Query_input_two{
+	width: 80%;
+	float: left;
+	text-align: center;
+	border: 0px solid;
+	height: 95%;
+}
+.EAM_Q_Query_Table_DivD{
+	width: 70%;
+	margin-top: 194px;
+	float: left;
+	bottom: 0;
+	margin-bottom: 20px;
+}
+.EAM_Q_Query_Table_Div_Ul_box_four{
+		width: 25%;
+		float: left;
+		line-height:30px;
+		position:  relative;
+		left: 55.1%;
+}
+.EAM_Q_Query_Table_Div_Ul_box_left{
+	width: 48%;
+	float: left;
+	height: 100%;
+}
+.EAM_Q_Query_Table_Div_Ul_box_right{
+	width: 50%;
+	float: left;
+	height: 100%;
+}
+.EAM_Q_Query_Table_Div_Ul_box_lefts{
+	width: 48%;
+	float: left;
+	height: 100%;
+}
+.EAM_Q_Query_Table_Div_Ul_box_rights{
+	width: 50%;
+	float: left;
+	height: 100%;
+}
+.EAM_Q_Query_Table_Div_Ul_box_leftss{
+	width: 48%;
+	float: left;
+}
+.EAM_Q_Query_Table_Div_Ul_box_rightss{
+	width: 50%;
+	float: left;
+	height: 100%;
+}
+.EAM_Q_Query_Table_Div_Ul_box_leftsss{
+	width: 48%;
+	float: left;
+}
+.EAM_Q_Query_Table_Div_Ul_box_rightsss{
+	width: 50%;
+	float: left;
+}
+.EAM_Q_Query_Bulid_Add{
+	float: left;
+	margin-left: 129px;
+	margin-top: 22px;
+}
+.names div:hover{
+	background-color: #3a99ea;
+	color:  #fff;
+} 
+.EAM_Q_Query_Finish_Table_Div_News{
+	width: 55%;
+	float: left;
+	height: 20px;
+}

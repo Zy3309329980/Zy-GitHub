@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="viewport" content="width=375, user-scalable=no">
+    <title>虚拟机申请状态</title>
+    <link href="../Css/ApplicationStatus.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" charset="utf-8" src="http://www.1473.cn/uform.js"></script>
+    <script src="../Js/ApplicationStatus.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="EAM_AS_top">
+        虚拟机申请状态
+    </div>
+
+    <div class="EAM_AS_Div1">
+        <!--<div id="EAM_AS_Ul" style=" background-color:#f0f3f4;">-->
+        <div id="EAM_AS_Ul" style=" background-color:#fff;">
+            <div class="EAM_AS_dropdown">
+              <button class="EAM_AS_dropbtn" onclick="EAM.AS.SelectDate()" >所有申请状态</button>
+              <div class="EAM_AS_dropdown-content" id="EAM_AS_dropdown-content">
+                <a onclick="EAM.AS.SelectDateTwo(2)">申请成功</a>
+                <a onclick="EAM.AS.SelectDateTwo(3)">申请失败</a>
+                <a onclick="EAM.AS.SelectDateTwo(1)">待审核</a>
+                <!--<a onclick="EAM.AS.SelectDateTwo(5)">归还中</a>
+                <a onclick="EAM.AS.SelectDateTwo(4)">已归还</a>-->
+              </div>
+            </div>
+            <div class="EAM_AS_dropdown2">
+              <button class="EAM_AS_dropbtn2" onclick="EAM.AS.SelectDateThree()" >归还申请</button>
+              <div class="EAM_AS_dropdown-content2">
+                <a onclick="EAM.AS.SelectDateTwo(4)">已归还</a>
+                <a onclick="EAM.AS.SelectDateTwo(5)">归还中</a>
+              </div>
+            </div>
+            <button class="EAM_AS_Apply_Botton" id="EAM_AS_Apply_Botton" onclick="EAM.AS.ApplyVirtualMachine()">申请</button>
+        </div>
+        
+    </div>
+    <div class="EAM_AS_Div2" id="EAM_AS_Div2"></div> 
+    <div class="EAM_AS_Div3" id="EAM_AS_Div3">无资产，请新建资产或进行相关归还操作</div> 
+</body>
+</html>

@@ -1,0 +1,5 @@
+F:\eam\UseStudio_EAM\UseStudio_EAM\bin\UseStudio_EAM.dll
+F:\eam\UseStudio_EAM\UseStudio_EAM\bin\UseStudio_EAM.pdb
+F:\eam\UseStudio_EAM\UseStudio_EAM\obj\Debug\UseStudio_EAM.csprojResolveAssemblyReference.cache
+F:\eam\UseStudio_EAM\UseStudio_EAM\obj\Debug\UseStudio_EAM.dll
+F:\eam\UseStudio_EAM\UseStudio_EAM\obj\Debug\UseStudio_EAM.pdb

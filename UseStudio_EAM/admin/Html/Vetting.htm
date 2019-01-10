@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>虚拟机申请审批</title>
+    <link href="../Css/Vetting.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://www.1473.cn/uform.js"></script>
+    <script src="../Js/Vetting.js" type="text/javascript"></script>
+</head>
+<body>
+        <div id="EAM_V_Head">   
+            <div class="EAM_V_Home" onclick="EAM.V.Turn_a();">虚拟机申请审批</div>
+            <div id="EAM_V_Header">
+                <div id="EAM_V_Nav1" onclick="EAM.V.Turn_a();">所有申请</div>
+                <div id="EAM_V_Nav2" onclick="EAM.V.Turn_b();">借出申请</div>
+                <div id="EAM_V_Nav3" onclick="EAM.V.Turn_c();">归还申请</div>
+            </div>
+        </div>
+        <div id="EAM_V_Content">
+            <div id="EAM_V_SearchContent">
+                <!--<input type="text" id="EAM_V_TimeStart" placeholder="开始时间"> <span>--</span> <input type="text" id="EAM_V_TimeEnd" placeholder="结束时间">-->
+                <input type="text" id="EAM_V_TimeStart" placeholder="开始时间" onfocus="U.MD.UI.Calendar(this)"/> <span>--</span> <input type="text" id="EAM_V_TimeEnd" placeholder="结束时间" onfocus="U.MD.UI.Calendar(this)"/>
+                <!--<input type="text" name="search" id="EAM_V_Search" placeholder="搜索申请人"/><img id="EAM_V_Search_Icon" src="../Img/search.png" alt=""/>-->
+                <input type="text" name="search" id="EAM_V_Search" placeholder="搜索申请人"/><div id="EAM_V_Search_Icon">搜索</div>
+            </div>
+  
+            <div id="EAM_V_Table1" class="EAM_V_Table1">
+            </div>
+            
+            <div id="EAM_V_Table2" class="EAM_V_Table2">  
+            </div>
+
+            <div id="EAM_V_Table3" class="EAM_V_Table3">
+            </div>
+
+        <div class="EAM_V_Bottombuttons"></div>
+  
+
+
+
+</body>
+</html>

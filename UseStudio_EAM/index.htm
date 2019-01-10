@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="viewport" content="width=375, user-scalable=no"/>
+    <meta http-equiv="Access-Control-Allow-Origin" content="http://eam.1473.cn"/>
+    <title>有思资产系统</title>
+    <link href="Css/index.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://www.1473.cn/uform.js"></script>
+    <script type="text/javascript" charset="utf-8" src="http://www.1473.cn/uformd.js"></script>
+    <link charset="utf-8" href="http://www.1473.cn/uform.css" rel="stylesheet" type="text/css" />
+    <script src="Js/index.js" type="text/javascript"></script>
+</head>
+<body>
+    <!--<iframe src="Html/ApplicationStatus.htm" width="200" height="200"></iframe>-->
+    <!--头部-->
+    <div class="EAM_I_Nav" id="EAM_I_Nav">
+        <div class="EAM_I_Nav_Empty2">
+            <img class="EAM_I_Nav_Empty2_Img" src="Img\MenuBar.png" alt="" />
+            <!--<div class="EAM_I_Nav_Nav_Logo">LOGO</div>-->
+            <!--<div class="EAM_I_Nav_Nav_Title">有思资产管理</div>-->
+            <img src="Img/logo_qt.png" alt="" class="EAM_I_Nav_Nav_logo_qt" />
+            <div class="EAM_I_Nav_Nav_Logo">有思资产管理系统</div> 
+            <img src="Img/HeadPortrait.png" alt="" class="EAM_I_Nav_Nav_UserImg" />
+            <div class="EAM_I_Nav_Nav_UserName">
+            </div>
+            <div class="EAM_I_Nav_Change" style="display:block;" onclick="EAM.I.AfterEnd()">
+            跳转至后台
+            </div>
+        </div>
+        <div class="EAM_I_Menu">
+            <div class="EAM_I_DropDown">
+                <div class="EAM_I_DropDown_Menu" onclick="EAM.I.HrefPersonal()">
+                    <p>个人信息</p>
+                </div>
+                <div class="EAM_I_Menu_line">
+                </div>
+                <div class="EAM_I_DropDown_Menu" onclick="EAM.I.Logout()">
+                    <p>退出登录</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--列表-->
+    <div class="EAM_I_List" id="EAM_I_List">
+        
+        <div class="EAM_I_List_ul">
+            <div class="EAM_I_List_Empty">用户中心</div>.
+
+            <div class="EAM_I_List_li" onclick="EAM.I.ReceptionLoadList(event,'Assetapplicationstatus')">
+                <img src="Img/ReturnVirtualMachine1.png" class="EAM_I_List_li_img1" alt="" />
+                <div class="EAM_I_List_li_text">
+                    资产申请状态
+                </div>
+                <img src="Img/Selected1.png" class="EAM_I_List_li_img2" alt="" />
+            </div>
+            <div class="EAM_I_List_li" onclick="EAM.I.ReceptionLoadList(event,'ApplicationStatus')">
+                <img src="Img/ApplicationStatus1.png" class="EAM_I_List_li_img12" alt="" />
+                <div class="EAM_I_List_li_text">
+                    虚拟机申请状态
+                </div>
+                <img src="Img/Selected1.png" class="EAM_I_List_li_img2" alt="" />
+            </div>
+        </div>
+    </div>
+    <!--后台-->
+    <!--导航-->
+    <div class="EAM_I_Nav2" id="EAM_I_Nav2">
+        <!--<div class="EAM_I_Nav2_Logo">LOGO</div>-->
+        <!--<div class="EAM_I_Nav2_Text">有思资产管理</div>-->
+        <img src="Img/logo_bg.png" alt="" class="EAM_I_Nav_Nav_logo_bg" />
+        <div class="EAM_I_Nav2_Text">有思资产管理系统</div>
+        <div class="EAM_I_Nav2_SignOut" onclick="EAM.I.Logout()">退出</div>
+        <div class="EAM_I_Nav2_Empty">|</div>
+        <div class="EAM_I_Nav2_Username">
+        </div>
+        <div class="EAM_I_Nav2_Change" style="display:block;"onclick="EAM.I.FrontEnd()">跳转至前台</div>
+    </div>
+    <!--列表-->
+    <div class="EAM_I_List2" id="EAM_I_List2">
+        <div class="EAM_I_List2_Empty">
+            管理中心</div>
+        <div class="EAM_I_List2_li EAM_I_List2_li_blue" onclick="EAM.I.BackstageLoadList(event,'Query')">
+            座位查询</div>
+        <div class="EAM_I_List2_li" onclick="EAM.I.BackstageLoadList(event,'Borrowed')">
+            资产申请管理</div>
+        <div class="EAM_I_List2_li" onclick="EAM.I.BackstageLoadList(event,'Amount')">
+            总资产管理</div>
+        <div class="EAM_I_List2_li" onclick="EAM.I.BackstageLoadList(event,'Vetting')">
+            虚拟机申请审批</div>
+        <div class="EAM_I_List2_li" onclick="EAM.I.BackstageLoadList(event,'Statistical')">
+            服务器机房检查统计</div>
+    </div>
+    <!--iframe-->
+    <div class="EAM_I_Iframe"  style="">
+        <iframe src="Html/Assetapplicationstatus.htm" class="EAM_I_Iframe_Cent" name="EAM_I_Iframe_Cent">
+        </iframe>
+    </div>
+</body>
+<script src="Js/index.js" type="text/javascript"></script>
+<script src="Js/userinfo.js" type="text/javascript"></script>
+</html>

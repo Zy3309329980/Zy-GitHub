@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="viewport" content="width=375, user-scalable=no">
+    <title>资产申请状态</title>
+    <link href="../Css/Assetapplicationstatus.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" charset="utf-8" src="http://www.1473.cn/uform.js"></script>
+    <script src="../Js/Assetapplicationstatus.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="EAM_AS_Div1">
+        <ul id="EAM_AS_Ul2" style="background-color:#f0f3f4;line-height: 85px;font-size: 18px;padding-left: 35px;height: 85px;">
+            资产申请状态
+        </ul>
+        <ul id="EAM_AS_Ul">
+            <div class="EAM_AS_BottomContent" id="hover1">
+                <div class="EAM_AS_Bottom">
+                    <a onclick = "EAM.AS.Asset('','',4,1)">所有申请</a>
+                </div>
+                <div class="EAM_AS_Drop" id="drop1">
+                    <div class=" EAM_AS_DropChild" onclick="EAM.AS.Asset('1', '1', 4, 1)">待审核</div>
+                    <div class=" EAM_AS_DropChild" onclick="EAM.AS.Asset('2', '2', 4, 1)">已通过</div>
+                    <div class=" EAM_AS_DropChild" onclick="EAM.AS.Asset('3', '3', 4, 1)">未通过</div>
+                </div>
+            </div>
+            <div class="EAM_AS_BottomContent" id="hover2">
+                <div class="EAM_AS_Bottom">
+                    <a onclick = "EAM.AS.Asset('4', '5' ,4, 1)" >归还申请</a>
+                </div>
+                <div class="EAM_AS_Drop" id="drop2">
+                    <div class=" EAM_AS_DropChild" onclick="EAM.AS.Asset('5', '5', 4, 1)">未归还</div>
+                    <div class=" EAM_AS_DropChild" onclick="EAM.AS.Asset('4', '4', 4, 1)">已归还</div>
+                </div>
+            </div>
+            <button class="EAM_AS_Apply_Botton" onclick="EAM.AS.ApplyAsset()">申请</button>
+        </ul>
+    </div> 
+</body>
+</html>

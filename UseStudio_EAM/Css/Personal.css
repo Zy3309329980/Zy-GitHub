@@ -1,0 +1,244 @@
+﻿EAM_P{}
+*{margin: 0;padding: 0;}
+body{font-size: 12px;font-family: "微软雅黑";background-color:#f0f3f4}
+.EAM_P_Div1
+{
+    background-color:#fff;
+    width:70%;
+    min-width:1000px;
+    height:750px;
+    position:absolute;
+    top:40px;
+    left:10%;
+    box-shadow: rgba(0,0,0,0.3) 5px 5px 5px;
+    border: solid #dbddde 1px;        
+    }
+.EAM_P_Div1 img
+{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    border: 1px solid #999;
+    position:absolute;
+    top:100px;
+    left:120px;
+    }
+.EAM_P_Name
+{
+    font-size:18px;
+    position:absolute;
+    top:120px;
+    left:40%;
+    list-style:none;
+    width:300px;
+    }
+#EAM_P_Div2
+{
+    width:650px;
+    height:850px;
+    position:absolute;
+    top:10px;
+    left:500px;
+    background-color:#fff;
+    border: solid #a0a0a0 1px;  
+    display:none;
+    box-shadow: rgba(0,0,0,0.3) 5px 5px 5px; 
+    }
+.EAM_P_Name_Content
+{
+    width: 360px;
+    line-height: 90px;
+    }
+.EAM_P_Name_Content_Label
+{
+    width: 144px;
+    letter-spacing: 30px;
+    white-space: nowrap;
+    }
+.EAM_P_Name_Content_Label2
+{
+    width: 126px;
+    white-space: nowrap;
+    letter-spacing: 6px;
+    }
+.EAM_P_Name_Content_Value
+{
+    padding-left: 30px;
+    }
+.EAM_P_Editor
+{
+    background-color:#fff;
+    border:none;
+    float:right;
+    margin:20px 20px 0 0;
+    color:#a0a0a0;
+    cursor: pointer;
+    }
+#EAM_P_Div2 p
+{
+    font-size:20px;   
+    text-align: center;
+    position:relative;
+    top:60px;
+    }
+.EAM_P_Submit
+{
+    background-color:#ff6656;
+    border-radius:25px;
+    border:1px solid;
+    font-size:18px;
+    text-align: center;
+    line-height: 38px;
+    width:110px;
+    height:40px;
+    position:absolute;
+    top:700px;  
+    left:280px;
+    color:#fff;
+    cursor: pointer;
+    }
+.EAM_P_Admin
+{
+    font-size: 18px;
+    line-height: 38px;
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 650px;
+    left: 270px;    
+}
+.EAM_P_Admin_NotClick
+{
+    width: 15px;
+    height: 15px;
+    float:  left;
+    border:  1px solid #ccc;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right:  5px;
+}
+.EAM_P_Admin_Click
+{
+    width: 11px;
+    height: 11px;
+    background-color: #80e080;
+    margin-left: 2px;
+    margin-top:  2px;
+}
+.EAM_P_Name1
+{
+    font-size:16px;
+    position:absolute;
+    top:100px;
+    left:70px;
+    list-style:none;
+    }
+.EAM_P_Name1_Content
+{
+    text-align: right;
+    margin-top: 50px;
+    }
+.EAM_P_Name1_Content_Label
+{
+    text-align: right;
+    margin-right: 20px;
+    }
+.EAM_P_Name1 input
+{
+    width:350px;
+    height:30px;
+    text-indent: 1em;
+    }
+#EAM_P_Close
+{
+    font-size:3em;
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    position:relative;
+    top:-32px;
+    left:620px;
+    cursor: pointer;
+    }
+#uname
+{
+        padding-left: 10px;    
+}
+#uclass
+{
+        padding-left: 10px;    
+}
+
+/*编辑框*/
+.EAM_P_complie{
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	position:  absolute;
+	width: 100%;
+	height: 100%;
+	overflow:auto;
+}
+.EAM_P_Box{
+	width: 100%;
+	height: 83%;
+	margin: 39px auto;
+}
+.EAM_P_complie_Div1{
+	width: 75%;
+	margin-left: 15%;
+	margin-top:18px;
+}
+.EAM_P_complie_Word{
+	width: 20%;
+	float: left;
+	line-height: 31px;
+	font-size:18px;
+	margin-top:10px;
+}
+.EAM_P_complie_Word{
+	width: 35%;
+	float: left;
+	line-height: 31px;
+	font-size:18px;
+	margin-top:10px;
+}
+.EAM_P_complie_text1 , .EAM_P_complie_text2 , .EAM_P_complie_text3, .EAM_P_complie_text4, .EAM_P_complie_text5,.EAM_P_complie_text6{
+	width: 61%;
+	height: 27px;
+	text-align: left;
+	margin-top:10px;
+	border-radius: 5px;
+    border: 1px solid rgb(189, 193, 204);
+}
+.EAM_P_complie_radio
+{	
+    float:left;
+    margin-left:85px;
+    margin-top:19px;
+    width:15px;
+    height:15px;    
+}
+.EAM_P_complie_Word2{
+	width: 35%;
+	float: left;
+	line-height: 31px;
+	font-size:18px;
+	margin-top:10px;
+}
+.EAM_P_complie_radio2
+{	
+    float: left;
+    margin-left: 124px;
+    margin-top: 20px;
+    width: 92px;
+    height: 39px;
+    border-radius: 5px;
+    background: #ff6759;
+    border: 1px solid #ff6759;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 8px;
+}

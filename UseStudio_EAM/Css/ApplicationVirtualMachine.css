@@ -1,0 +1,128 @@
+﻿EAM_AV{}
+*{margin: 0;padding: 0;}
+body{font-size: 12px;font-family: "微软雅黑";background-color:#f0f3f4;}
+.EAM_AV_header
+{ 
+    position:relative;
+    width:100%;
+    height:57px;
+    background-color:#fff;
+    }
+.EAM_AV_header .EAM_AV_sel
+{
+    position:absolute;
+    width:180px;
+    height:31px;
+    margin-left: 55px;
+    font-size: 20px;
+        bottom: 0;
+    }
+.EAM_AV_sel .EAM_AV_select
+{
+    color:Black;
+    font-size:20px;
+    font-family:"微软雅黑";
+    display:block;
+    border-bottom:5px solid #225ad8;
+    text-align:center;
+    width:180px;
+    padding:8px 0px;
+    margin:-16px -5px;
+    }
+.EAM_AV_content
+{
+    margin:0 auto;
+    position:relative;
+    width: 100%;
+    height:550px;
+    background-color:#ffffff;
+    border:1px solid #a0a0a0;
+    top: 50px;
+    }
+.EAM_AV_main
+{
+    width:500px;
+    margin: 85px auto;
+    left:320px;
+    top:90px;
+    }
+.EAM_AV_group
+{   
+    margin-bottom:30px;
+    text-align:right;
+    font-size:16px;
+    width:500px;
+    }
+.EAM_AV_group input
+{
+    width:398px;
+    height:39px;
+    border:1px solid #a0a0a0;
+    }
+.EAM_AV_submit1
+{
+    width:180px;
+    height:33px;
+    background:none;
+    border-radius:25px;
+    color:#666666;
+    font-size:18px;
+    text-align:center;
+    cursor:pointer;
+    float:right;
+    margin-left:15px;
+    border: 1px solid #a0a0a0;
+    }
+.EAM_AV_submit2
+{
+    width:130px;
+    height:33px;
+    background:none;
+    border-radius:25px;
+    color:#666666;
+    font-size:18px;
+    text-align:center;
+    cursor:pointer;
+    float:right;
+    margin-left:15px;
+    border: 1px solid #a0a0a0;
+    }
+.EAM_AV_submit3
+{
+    width:130px;
+    height:33px;
+    border-radius:25px;
+    color:White;
+    font-size:18px;
+    text-align:center;
+    border:none;
+    cursor:pointer;
+    float:right;
+    background-color:#ff6656;
+    }
+.EAM_AV_submit4
+{
+    width:130px;
+    height:42px;
+    background-color:#ff6656;
+    border-radius:25px;
+    color:White;
+    font-size:18px;
+    text-align:center;
+    border:none;
+    cursor:pointer;
+    float:right;
+    }
+.EAM_AV_buttons
+{   
+    width:470px;
+    height:35px;
+    float:right;
+    
+    }
+.EAM_AV_table
+{
+    min-width:1000px;
+    margin: 20px 0 0 100px;
+    width: 90%;
+}

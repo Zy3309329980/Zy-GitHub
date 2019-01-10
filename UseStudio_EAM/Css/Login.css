@@ -1,0 +1,153 @@
+﻿EAM_L{}
+*{
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    display: inline-block;
+    width: 35px; height: 35px;
+    overflow: hidden;
+}
+.icon > .icon {
+    position: relative;
+    left: -35px;
+    border-right: 35px solid transparent;
+    filter: drop-shadow(rgb(187 191 202) 35px 0);
+}
+item.selected .icon > .icon {
+    filter: drop-shadow(rgb(34,90,216) 35px 0);
+}
+.icon-user {
+    background: url('../Img/Login/Login_user.png') no-repeat center;
+}
+.icon-qq {
+    background: url('../Img/Login/Login_qq.png') no-repeat center;
+}
+.icon-email {
+    background: url('../Img/Login/Login_email.png') no-repeat center;
+}
+.icon-weibo {
+    background: url('../Img/Login/Login_weibo.png') no-repeat center;
+}
+.icon-weixin {
+    background: url('../Img/Login/Login_weixin.png') no-repeat center;
+}
+body{
+    font-size: 12px;
+    font-family: "微软雅黑";
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body > header {
+    height: 100px;
+    background: red;
+    width: 100%;
+}
+main * {
+    display: flex;
+}
+body > main{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+main > header {
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+main > header item{
+    width: 50%;
+    cursor: pointer;
+    margin-left: 50px;
+}
+main > header item span {
+    font-size: 18px;
+    line-height: 37px;
+    text-indent: 10px;
+    color: #333;
+}
+main > header item.selected span {
+    /* color: rgb(34,90,216); */
+}
+main > main {
+    width: 100%;
+    height: 300px;
+    flex-wrap: wrap;
+}
+.form .input {
+    width: 100%;
+    height: 50px;
+}
+.form .input span {
+    font-size: 18px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.form .input input {
+    font-size: 18px;
+    border: #bbbfca solid 1px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    text-indent: 15px;
+}
+.form .href{
+    width: 100%;
+    height: 30px;
+    justify-content: space-between;
+}
+.form .href a{
+    color: #666;
+    font-size: 14px;
+    text-decoration: none;
+}
+.form .href a:hover{
+    text-decoration: underline;
+}
+.form > a {
+    background: #ff6655;
+    width: 110px;
+    height: 50px;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 50px;
+    justify-content: center;
+    font-size: 22px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+main > footer {
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+main > footer > item {
+    cursor: pointer;
+}
+main > footer > item  span {
+    font-size: 18px;
+    line-height: 37px;
+    text-indent: 10px;
+    color: #333;
+}
+main > footer > item:hover  span {
+    color: rgb(34,90,216);
+}
+main > footer > item:hover .icon > .icon {
+    filter: drop-shadow(rgb(34,90,216) 35px 0);
+}
+#identifyingcode{
+	width: 15%;
+	background-color: black;
+	color: white;
+	justify-content: center;
+	border: 1px solid #EEEEEE;
+}

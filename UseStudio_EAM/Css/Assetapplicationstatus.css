@@ -1,0 +1,509 @@
+﻿EAM_AS{}
+html{ overflow:hidden; height:100%;}
+*{margin: 0;padding: 0;}
+body{font-family: "微软雅黑"; width: 100%;height:100%; background-color:#f4f4f4}
+ul,li{list-style-type: none;}
+th{ height:29px;}
+td{ height:40px}
+.EAM_AS_Div1
+{
+    position:relative;
+}
+.EAM_AS_BottomContent
+{
+    font-size: 20px;
+    margin: 15px 5px 0 0;
+    float: left;
+    }
+.EAM_AS_Bottom
+{
+    color: #2196f3;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px;
+    
+    cursor:pointer;
+}
+.EAM_AS_Drop
+{
+    display:none;
+    position: absolute;
+    z-index:1;
+    font-size:16px;
+    width:92px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align:center;
+    }
+.EAM_AS_DropChild
+{
+    height:40px;
+    line-height:40px;
+    cursor:pointer;
+    }
+.EAM_AS_DropChild:hover
+{
+    color: white;
+    background-color:#2196f3;
+    }
+.EAM_AS_Bottom:hover
+{
+    color: white;
+    background-color:#2196f3;
+    
+}
+#hover1:hover #drop1
+{
+    display:block;
+}
+#hover2:hover #drop2
+{
+    display:block;
+}
+.EAM_AS_Div1 ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    height:57px;
+}
+.EAM_AS_Div1 ul li
+{
+    position: relative;
+    left: 40px;
+    width: 100px;
+    float: left;
+    margin-right: 40px;
+    box-sizing: border-box;
+}
+.EAM_AS_Div1 ul li a
+{
+    height: 16px;
+    position: relative;
+    left: -20px;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding: 18px 0;
+    text-decoration: none;
+    /* box-sizing: border-box; */
+    width: 140px;
+    margin: 0 auto;
+}
+.EAM_AS_Div1 ul li a:hover
+{
+    /*background:#dddddd;*/
+    cursor :default;
+}
+.EAM_AS_Div2
+{
+    position:relative;   
+    left:20px; 
+    min-width:1000px;
+}
+.EAM_AS_Div2_Input
+{
+    width:320px;
+    height:30px;
+    outline:medium;
+}
+.EAM_AS_Div2 img
+{
+    width: 23px;
+    height: 23px;
+    position:absolute;
+    left:330px;
+    top:36px;    
+    cursor: pointer;
+}
+.EAM_AS_Table2
+{
+    font-size:16px;
+    text-align:center;
+    width:460px;
+    height:33px;
+    float:right;
+    margin:0 70px 33px 0; 
+}
+.EAM_AS_Table2 input
+{
+    width:27.3%;
+    height:33px;
+    border-radius:25px;
+    border:1px solid #666666;
+    cursor: pointer;
+    outline: none;
+}
+.EAM_AS_Table2_Apply
+{
+    background-color:#ff6656;
+    color:#fff;
+    border:1px solid #ff6656;
+    }
+.EAM_AS_Div2_Table
+{
+    width:97.7%;
+    background-color:#fff;
+    font-size:16px;
+    min-width:600px;
+    position:relative;  
+    margin-top: 50px; 
+    text-align: center;
+    line-height: 62px;
+    display: inline-block;
+    border-bottom: 1px solid #bfbfbf; 
+}
+.EAM_AS_Div2_Table_Head
+{
+    width: 103.6%;
+    font-size: 16px;
+    }
+.EAM_AS_Div2_Table_Head_Span
+{
+    width: 12%;
+    height:65px; 
+    float: left;
+    font-size: 18px;
+    background-color: #f0f3f4;
+    border-left: 1px solid #bfbfbf;
+    border-top: 1px solid #bfbfbf;
+    display: inline-block;
+    }
+.EAM_AS_Div2_Table_Head_Result
+{
+    width: 12%;
+    height:65px; 
+    float: left;
+    font-size: 18px;
+    background-color: #f0f3f4;
+    border-left: 1px solid #bfbfbf;
+    border-top: 1px solid #bfbfbf;
+    display: inline-block;
+    border-right: 1px solid #bfbfbf; 
+    }
+.EAM_AS_Div2_Table_Content
+{
+    width: 103.6%;
+    }
+.EAM_AS_Div2_Table_Content_Details
+{
+    width: 100%;
+    height:66px;
+    }
+.EAM_AS_Div2_Table_Content_span
+{
+    width: 12%;
+    height:65px; 
+    float: left;
+    border-left: 1px solid #bfbfbf;
+    border-top: 1px solid #bfbfbf;
+    display: inline-block;
+    }
+.EAM_AS_Div2_Table_Content_Result
+{
+    border-right: 1px solid #bfbfbf; 
+    display: inline-block;
+    }
+.EAM_AS_Div3
+{
+    width: 320px;
+    height: auto;
+    background: #fff;
+    border: 1px solid #f0f3f4;
+    box-shadow: 1px 1px 1px #f0f3f4;
+    position: absolute;
+    top: 119px;
+    left: 50px;
+    display: none;
+    }
+.EAM_AS_Div3_Name
+{
+    width: 320px;
+    height: 50px;
+    color: #00FFFF;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+    }
+.EAM_AS_Div3 div:hover
+{
+    background-color: #f0f3f4;
+    }
+.EAM_AS_Div4
+{
+    float: right;
+    width: 30%;
+    margin-top: 2%;
+    
+    }
+    .EAM_AS_Div5
+{
+    float: right;
+    width: 30%;
+    margin-top: 2%;
+    
+    }
+    .EAM_AS_Div6
+{
+    float: right;
+    width: 30%;
+    margin-top: 2%;
+    
+    }
+    .EAM_AS_Div7
+{
+    float: right;
+    width: 30%;
+    margin-top: 2%;
+    
+    }
+    .EAM_AS_Div8
+{
+    float: right;
+    width: 30%;
+    margin-top: 2%;
+    
+    }
+    .UD_SYFY
+{
+    height: 35px;
+    text-indent: 0;
+}
+.UD_SYFY .UD_SYFYL div
+{
+    width: 33px;
+    height: 31px;
+    border: 1px solid #DADADA;
+    float: left;
+    margin-left: 5px;
+    cursor:  pointer;
+}
+.UD_SYFY .UD_SYFYL
+{
+    height: 33px;
+    margin-top: 0px;
+    float:left;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYLOO, .UD_SYFY .UD_SYFYL .UD_SYFYLO
+{
+    display: none;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYLTO, .UD_SYFY .UD_SYFYL .UD_SYFYLT
+{
+    background-image: url(../Img/s_left.png);
+    background-position: 0;
+    background-size: cover;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYLS, .UD_SYFY .UD_SYFYL .UD_SYFYLSO
+{
+    background-image: url(../Img/s_right.png);
+    background-position: 0;
+    background-size: cover;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYLF, .UD_SYFY .UD_SYFYL .UD_SYFYLFO
+{
+    display: none;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYN
+{
+    width: auto;
+    margin: 0;
+    cursor: inherit;
+    border: none;
+    padding: 0;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYN .UD_SYFYNO
+{
+    line-height: 33px;
+    margin: 0;
+    margin-left: 5px;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYN .UD_SYFYNO:hover
+{
+    border-color: #396dcd;
+    background-color: #396dcd;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYN .UD_SYFYNOO
+{
+    border-color: #396dcd;
+    background-color: #396dcd;
+}
+.UD_SYFY .UD_SYFYR
+{
+    border: 0;
+    height: 33px;
+    float:left;
+}
+.UD_SYFY .UD_SYFYR .UD_SYFYRL
+{
+    width: auto;
+    height: 35px;
+    padding: 0;
+    font-size: 14px;
+    float:left;
+}
+.UD_SYFY .UD_SYFYR .UD_SYFYRL span
+{
+    line-height: 35px;
+    float:left;
+}
+.UD_SYFY .UD_SYFYR .UD_SYFYRL div
+{
+    width: 57px;
+    margin: 0px;
+    padding: 0px;
+    margin: 0 5px;
+    float:left;
+}
+.UD_SYFY .UD_SYFYR .UD_SYFYRL input
+{
+    height: 31px;
+    width: 57px;
+}
+.UD_SYFY .UD_SYFYR .UD_SYFYRZ
+{
+    width: 48px;
+    height: 31px;
+    margin: 0;
+    margin-left: 10px;
+    line-height: 31px;
+    background-color: #fff;
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+    float:left;
+    cursor:  pointer;
+}
+.UD_SYFY .UD_SYFYR .UD_SYFYRR
+{
+    line-height: 33px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.EAM_AS_Bottombuttons
+{
+    float:  right;
+    width: 98%;
+    margin-top: 2%;
+    margin-right: -17px
+}
+/*
+  头部样式2 
+  顶部容器 包含：
+  时间框、搜索框、申请按钮
+*/
+#EAM_AS_Ul
+{
+    background-color: white;
+    width: 96.1%;
+    margin: 0 auto;
+    }
+/*时间框*/
+.EAM_AS_Ul input
+{
+    height: 25px;
+    width: 110px;
+    margin-right: 4px;
+    }
+/*搜索框外部容器*/
+.EAM_AS_Search
+{   
+    float: right;
+    width: 262px;
+    position: relative;
+    right: -30px;
+    
+    }
+/*搜索框*/
+.EAM_AS_Search input
+{
+    width:211px;
+    height:32px;
+    border-radius: 3px;
+    border: 1px solid #2196f3;
+    }
+/*搜索框按钮*/
+.EAM_AS_Search_Botton
+{
+    background-color: #2196f3;
+    color: White;
+    width: 40px;
+    height: 34px;
+    position: relative;
+    right: 49px;
+    top: 1px;
+    border: none;
+    border-radius: 3px;
+    border: 1px solid #2196f3;
+    }
+/*申请按钮*/
+.EAM_AS_Apply_Botton
+{
+    margin-top: 17px;
+    width: 65px;
+    height: 31px;
+    color: White;
+    float: right;
+    border-radius: 5px;
+    background-color: #ff6656;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    }
+/*操作内部按钮样式*/
+.EAM_AS_OperatButton
+{
+    cursor:pointer;
+    }
+.EAM_AS_Assettable
+{
+    width:97.7%;
+    margin:0 auto;
+    border:1px solid #bfbfbf;
+    border-collapse: collapse;
+    text-align:center;
+    font-size:18px;
+    background-color:White;
+    }    
+.EAM_AS_Assettable tr
+{
+    border:1px solid #bfbfbf;
+    height:66px;
+    
+    }
+.EAM_AS_Assettable td
+{
+    border:1px solid #bfbfbf;
+    width:12.5%;
+    }
+.EAM_AS_Calendar
+{
+    width:100%;
+    }
+#EAM_AS_tablebox
+{
+    width: 96.1%;
+    margin: 0px auto;
+    height: 70%;
+    background-color: white;
+    }
+#EAM_AS_tablebox thead
+{
+    background-color:#dee4ee;
+    }
+#EAM_AS_tablebox td
+{
+    background-color:white;
+    border:1px solid rgb(213,213,213);
+    }
+#EAM_AS_NoAsset
+{
+    height: 100%;
+    line-height: 613.89px;
+    font-size:22px;
+    font-weight:bold;
+    text-align:center;
+    }

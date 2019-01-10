@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>文件储存</title>
+    <link href="../Css/Storage.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://www.1473.cn/uform.js"></script>
+    <script src="../Js/Storage.js" type="text/javascript"></script>
+</head>
+<body> 
+<div class="EAM_SF_div">
+    <div class="EAM_SF_main">
+        <div class="EAM_SF_above">
+        <b>文件储存系统</b>
+        </div>
+        <div class="EAM_SF_behind">
+            <span>
+                文件名：
+            </span>
+            <input class="EAM_SF_text1" type="text" name="search" placeholder="请输入文件名..."/>
+            <input class="EAM_SF_text2" type="button" name="botton" onclick = "EAM_SF_text2(pageLength)" value="搜索"/>
+            <input class="pic" name="txtName" type="file" id="pic" onchange="loadImage(this)"/>
+            <input class="EAM_SF_text3" value="返回" onclick="EAM_SF_text3()" type="button">
+        </div>
+    </div>
+    <div class="EAM_SF_body">
+                    <ul class="EAM_SF_maxbody">
+                        <li class="EAM_SF_firsts"><b>文件名</b></li>
+                        <select class="EAM_SF_test" onclick="xx(this)">
+                            <option class="EAM_SF_test" value="默认" onclick="defaul()">默认</option>
+                            <option class="EAM_SF_test" value="时间" onclick="time()">时间</option>
+                            <option class="EAM_SF_test" value="大小" onclick="size()">大小</option>
+                            <option class="EAM_SF_test" value="类别" onclick="type()">类别</option>
+                        </select>
+                        <li class="EAM_SF_czs"><b>操作</b></li>
+                    </ul>
+        <ul class="EAM_SF_mainbody">
+        </ul>
+    </div>
+    <div class="m_a_pub_control">
+        <div class="m_a_pub_btn">首页</div>
+        <div class="m_a_pub_btn">上一页</div>
+        <div class="m_a_pub_pages" id="pageLength">
+        </div>
+        <div class="m_a_pub_btn">下一页</div>
+        <div class="m_a_pub_btn">尾页</div>
+    </div>
+</div>
+</body>
+</html>

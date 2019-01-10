@@ -1,0 +1,149 @@
+﻿EAM_R{}
+*{margin: 0;padding: 0;}
+body{font-size: 12px;font-family: "微软雅黑";background-color:#f0f3f4;}
+
+.EAM_R_Div1
+{
+    
+    position:relative;
+    top:0px;
+       
+}  
+.EAM_R_Div1 ul
+{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    height:57px;
+    
+}
+.EAM_R_Div1 ul li
+{
+   position:relative;
+   left:50px;
+   float: left;
+   top:10px;
+   width:180px;
+}
+.EAM_R_Div1 ul li a
+{
+    height:26px;
+    font-size:20px;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.EAM_R_Div1 ul li a:hover
+{
+   
+    /*background:#dddddd;*/
+    cursor :default;
+}
+#EAM_R_First
+{
+    border-bottom:5px solid #225ad8;    
+}
+.EAM_R_content
+{
+    margin:0 auto;
+    position:relative;
+    width: 100%;
+    height:550px;
+    background-color:#ffffff;
+    border:1px solid #a0a0a0;
+    top: 50px;
+    }
+.EAM_R_main
+{
+    width:500px;
+    margin: 85px auto;
+    left:320px;
+    top:90px;
+    float:right;
+    }
+.EAM_R_group
+{   
+    margin-bottom:30px;
+    text-align:right;
+    font-size:16px;
+    width:500px;
+    }
+.EAM_R_group input
+{
+    width:398px;
+    height:39px;
+    border:1px solid #a0a0a0;
+    }
+.EAM_R_submit1
+{
+    width:180px;
+    height:33px;
+    background:none;
+    border-radius:25px;
+    color:#666666;
+    font-size:18px;
+    text-align:center;
+    cursor:pointer;
+    float:right;
+    margin-left:15px;
+    border: 1px solid #a0a0a0;
+    }
+.EAM_R_submit2
+{
+    width:130px;
+    height:33px;
+    background:none;
+    border-radius:25px;
+    color:#666666;
+    font-size:18px;
+    text-align:center;
+    cursor:pointer;
+    float:right;
+   
+    border: 1px solid #a0a0a0;
+    }
+.EAM_R_submit3
+{
+    width:130px;
+    height:33px;
+    border-radius:25px;
+    color:White;
+    font-size:18px;
+    text-align:center;
+    border:none;
+    cursor:pointer;
+    float:right;
+    margin-left:15px;
+    background-color:#ff6656;
+    }
+.EAM_R_submit4
+{
+    width:130px;
+    height:42px;
+    background-color:#ff6656;
+    border-radius:25px;
+    color:White;
+    font-size:18px;
+    text-align:center;
+    border:none;
+    cursor:pointer;
+    float:right;
+    }
+.EAM_R_buttons
+{   
+    width:470px;
+    height:35px;
+    float:right;
+    
+    }
+.EAM_R_table
+{
+    min-width:1000px;
+    margin: 20px 0 0 100px;
+    width: 90%;
+}

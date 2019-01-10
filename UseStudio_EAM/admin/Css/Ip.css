@@ -1,0 +1,340 @@
+﻿EAM_IP{}
+*{margin: 0;padding: 0;}
+body{font-size: 12px;font-family: 微软雅黑;min-width: 1225px;height: 100vh;}
+.EAM_IP_Main{width: 91%;margin:0 0 0 50px;}
+.EAM_IP_Header
+{
+    width:90%; 
+    height:80px;
+    margin-top: 30px;
+}
+.EAM_IP_Title
+{
+    color:#2196f3;
+    font-family:微软雅黑;
+    font-size:20px;
+    float:left;
+    border-bottom:3px solid #2196f3;
+    margin-top:10px;
+    width:100px;
+}
+.EAM_IP_Search
+{
+    height:46px;
+    float:right;
+    border:2px solid #2196f3;
+    border-radius:5px; 
+}
+.EAM_IP_Search input
+{
+    border: 0px;
+    height: 30px;
+    border-right: 2px solid #2196f3;
+    background-color: #f0f3f4;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-left: 10px;
+    outline:  none;
+}
+.EAM_IP_Search img
+{
+    margin-top: 8px;
+    margin-right: 11px;
+    margin-left: 12px;
+}
+.EAM_IP_Search_Left
+{
+    float:left;
+ }
+ .EAM_IP_Search_Right
+ {
+    float:right;    
+ }
+.EAM_IP_Bottom
+{
+    margin-top:20px;    
+}
+.EAM_IP_Bottom_Table
+{
+    width: 90%;
+    font-size: 16px;
+    font-family: 宋体;
+    text-align: center;
+    color:#222222;
+    border:1px solid RGB(200,202,212);
+}
+
+.EAM_IP_Bottom_Table_Head tr{background-color: #f0f3f4;height:50px;font-size:18px;}
+.EAM_IP_Bottom_Table_Body_Tr{height:50px;background:white;}
+.EAM_IP_Bottom_Table_Body_Td{cursor:pointer;}
+.EAM_IP_Alert
+{ 
+ display:none;z-index:999;position:absolute;left: 500px;top: 80px;width:40%;background:white;height:365px;border: 1px solid #f0f3f4;border-radius:5px; 
+}
+.EAM_IP_View
+{
+    width: 100%;
+    height: 40px;
+}
+.EAM_IP_View center
+{
+   margin-top: 18px;
+   font-size:20px;
+   font-family:"微软雅黑";
+}
+.EAM_IP_Add
+{
+    width: 100%;
+    margin-top: 55px;
+}
+.EAM_IP_Close
+{
+    float: right;
+    margin-top: -25px;
+    margin-right: 5px;
+    cursor:pointer;
+}
+.EAM_IP_Alert_Table
+{
+    width: 100%;
+    font-size: 16px;
+    font-family: 宋体;
+    position:  relative;
+    text-align: center;
+    border-style:none;
+    top: 0px;
+}
+.EAM_IP_Alert_Table_Body_Tr{
+    margin-top: 0px;
+}
+.EAM_IP_Alert_Table_Body_Td
+{
+   border:0px;
+   border-right:1px solid RGB(189,193,202);     
+}
+.EAM_IP_Alert_Table_Body_Td img
+{
+    margin-left:5px;    
+}
+.EAM_IP_Alert_Table_Body_Td_Change
+{
+    background:#f0f3f4;
+    border:0px;
+    height: 40px;
+    width: 37%;
+    margin-top: 16px;
+    float: left;
+    border-right:1px solid RGB(189,193,202);
+    margin-left: 40px;
+    text-align:  center;
+    line-height: 41px;
+    cursor: pointer;
+}
+.EAM_IP_Alert_Table_Body_Td_Change img
+{
+    margin-left:5px;    
+}
+.EAM_IP_Add_Button
+{
+    width: 94px;
+    height: 35px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #2fa5ff;
+    margin: 34px 17px 0px 197px;
+    border: 1px solid #2fa5ff;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    bottom: 0;
+}
+.UD_SYFY
+{
+    height: 35px;
+    text-indent: 0;
+}
+.UD_SYFY .UD_SYFYL div
+{
+    width: 33px;
+    height: 31px;
+    border: 1px solid #DADADA;
+    float: left;
+    margin-left: 5px;
+    cursor:  pointer;
+}
+.UD_SYFY .UD_SYFYL
+{
+    height: 33px;
+    margin-top: 0px;
+    float:left;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYLOO, .UD_SYFY .UD_SYFYL .UD_SYFYLO
+{
+    display: none;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYLTO, .UD_SYFY .UD_SYFYL .UD_SYFYLT
+{
+    background-image: url(../../Img/s_left.png);
+    background-position: 0;
+    background-size: cover;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYLS, .UD_SYFY .UD_SYFYL .UD_SYFYLSO
+{
+    background-image: url(../../Img/s_right.png);
+    background-position: 0;
+    background-size: cover;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYLF, .UD_SYFY .UD_SYFYL .UD_SYFYLFO
+{
+    display: none;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYN
+{
+    width: auto;
+    margin: 0;
+    cursor: inherit;
+    border: none;
+    padding: 0;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYN .UD_SYFYNO
+{
+    line-height: 33px;
+    margin: 0;
+    margin-left: 5px;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYN .UD_SYFYNO:hover
+{
+    border-color: #396dcd;
+    background-color: #396dcd;
+}
+.UD_SYFY .UD_SYFYL .UD_SYFYN .UD_SYFYNOO
+{
+    border-color: #396dcd;
+    background-color: #396dcd;
+}
+.UD_SYFY .UD_SYFYR
+{
+    border: 0;
+    height: 33px;
+    float:left;
+}
+.UD_SYFY .UD_SYFYR .UD_SYFYRL
+{
+    width: auto;
+    height: 35px;
+    padding: 0;
+    font-size: 14px;
+    float:left;
+}
+.UD_SYFY .UD_SYFYR .UD_SYFYRL span
+{
+    line-height: 35px;
+    float:left;
+}
+.UD_SYFY .UD_SYFYR .UD_SYFYRL div
+{
+    width: 57px;
+    margin: 0px;
+    padding: 0px;
+    margin: 0 5px;
+    float:left;
+}
+.UD_SYFY .UD_SYFYR .UD_SYFYRL input
+{
+    height: 31px;
+    width: 57px;
+}
+.UD_SYFY .UD_SYFYR .UD_SYFYRZ
+{
+    width: 58px;
+    height: 33px;
+    margin: 0;
+    margin-left: 10px;
+    line-height: 31px;
+    background-color: #fff;
+    border: 1px solid #DADADA;
+    border-radius: 3px;
+    float:left;
+    cursor:  pointer;
+    text-align:  center;
+}
+.UD_SYFY .UD_SYFYR .UD_SYFYRR
+{
+    line-height: 33px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.EAM_page{
+	margin-top: 27px;
+	margin-left: 36px;
+}
+.EAM_IP_Alert_Alert_Table{
+	width: 71%;
+	margin-top: 30px;
+	float: left;
+	margin-left: 70px;
+	font-size: 18px;
+}
+.EAM_IP_Alert_Table_Table_Body{
+	float: left;
+	border: 1px solid #F2F2F2;
+	margin-top: 3px;
+	height: 21px;
+}
+.EAM_IP_ips{
+	width: 46%;
+	float: left;
+}
+.EAM_IP_img_div{
+	width: 20px;
+	height: 21px;
+	float: left;
+	margin-left: 5px;
+}
+.EAM_IP_img{
+	background-image: url(../../Img/s_left.png);
+	display:block;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	background-position: -78px -63px;
+}
+.EAM_ip_Form_body{
+	width: 63%;
+	height: 91px;
+	border;1px
+	solid black;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: auto;
+	float: left;
+	right: 0;
+	bottom: 0;
+}
+.EAM_ip_Form_body_top{width: 100%;height: 53%;float: left;}
+.EAM_ip_Form_body_top_left{width: 37%;margin-top: 7px;float: left;}
+.EAM_ip_Form_body_top_right{float: left;width: 43%;margin-top: 7px;}
+.EAM_ip_Form_body_bottom{
+width: 100%;
+margin-top: 0px;
+float: left;
+}
+.EAM_ip_Form_body_bottom_left{width: 37%;float: left;margin-top: 2px;}
+.EAM_ip_Form_body_bottom_right{
+	
+}
+.EAM_IP_body_button{
+	width: 28%;
+	height: 28%;
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #2fa5ff;
+	margin-top: 26px;
+	border: 1px solid #2fa5ff;
+	border-radius: 5px;
+	cursor: pointer;
+	position: relative;
+	bottom: 0;
+	margin-left: 93px;
+}
